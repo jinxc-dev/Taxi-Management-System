@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.navbar-laravel {
+  background-color: #263040;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+

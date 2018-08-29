@@ -1,0 +1,20 @@
+.passenger-cell.selected .check_box{
+    display: inline;
+}
+.passenger-cell.selected .uncheck_box{
+    display:none;
+}
+#msg_pan{
+    display: none;
+}
+#msg_pan.active{
+    display: block;
+}
+
+.addonBtn,
+.markBtn{
+    color:#237cb1
+}
+.addonBtn:hover{
+    color:#55b0e6
+}
