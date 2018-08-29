@@ -383,18 +383,18 @@ import axios from 'axios'
 Vue.use(VueGoogleMaps, {
   load: {
     libraries: 'places, directions', // This is required if you use the Autocomplete plugin
-    key: 'AIzaSyBdTrGJd1qFEMlgjqNatB3NmTVIwf7DSBM',
+    key: 'Your Map Key',
   },
 })
 
 
 const config = {
-  apiKey: "AIzaSyDSWh8uzfCZ2PqU7p_ZhINW58zixySLlWQ",
-  authDomain: "asur-142af.firebaseapp.com",
-  databaseURL: "https://asur-142af.firebaseio.com",
-  projectId: "asur-142af",
-  storageBucket: "asur-142af.appspot.com",
-  messagingSenderId: "88413771227"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
  }
 firebase.initializeApp(config)
 const database = firebase.database()
